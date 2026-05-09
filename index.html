@@ -10,9 +10,50 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Carla Trevisan | Nutricionista</title>
+<title>Carla Trevisan | Nutricionista Funcional em Araras-SP</title>
+
+<!-- SEO Básico -->
+<meta name="description" content="Carla Trevisan, nutricionista funcional em Araras-SP. Especialista em saúde da mulher, endometriose, SOP, emagrecimento, fitoterapia e nutrição clínica funcional. Consultas presenciais e online.">
+<meta name="keywords" content="nutricionista Araras, nutricionista funcional Araras, endometriose nutrição, SOP nutricionista, saúde hormonal Araras, emagrecimento Araras, fitoterapia Araras, nutrição clínica SP, Carla Trevisan nutricionista, nutricionista funcional SP">
+<meta name="author" content="Carla Trevisan">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Carla Trevisan | Nutricionista Funcional em Araras-SP">
+<meta property="og:description" content="Cuidado personalizado com foco na saúde da mulher. Especialista em endometriose, SOP, emagrecimento e fitoterapia. Consultas presenciais e online.">
+<meta property="og:image" content="https://i.ibb.co/Dgw9Dr4V/carla-sorrindo.jpg">
+<meta property="og:url" content="https://carlatrevisan.com.br">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Carla Trevisan",
+  "jobTitle": "Nutricionista Funcional",
+  "url": "https://carlatrevisan.com.br",
+  "telephone": "+5519989900330",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Araras",
+    "addressRegion": "SP",
+    "addressCountry": "BR"
+  },
+  "sameAs": [
+    "https://www.instagram.com/nutricarla.trevisan"
+  ]
+}
+</script>
+
+<!-- Google Fonts — carregamento assíncrono (não bloqueia renderização) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Jost:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Jost:wght@300;400;500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Jost:wght@300;400;500&display=swap"></noscript>
+
 <link rel="icon" type="image/png" href="https://i.ibb.co/WhMNLw1/ico-removebg-preview.png" alt="ico removebg preview" border="0">
 <style>
   :root {
@@ -36,6 +77,63 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     font-weight: 300;
     overflow-x: hidden;
   }
+  /* ─── MODAL POLÍTICA DE PRIVACIDADE ─── */
+  .modal-overlay {
+    display: none;
+    position: fixed; inset: 0; z-index: 999;
+    background: rgba(58,44,44,0.7);
+    backdrop-filter: blur(4px);
+    align-items: center; justify-content: center;
+    padding: 20px;
+  }
+  .modal-overlay.active { display: flex; }
+  .modal-box {
+    background: #fff;
+    border-radius: 20px;
+    max-width: 700px; width: 100%;
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: 48px 44px;
+    position: relative;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.2);
+  }
+  .modal-close {
+    position: absolute; top: 20px; right: 24px;
+    background: var(--rose-light);
+    border: none; cursor: pointer;
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    font-size: 1.1rem; color: var(--accent);
+    display: flex; align-items: center; justify-content: center;
+    transition: background .3s;
+  }
+  .modal-close:hover { background: var(--rose); }
+  .modal-box h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.9rem; font-weight: 400;
+    color: var(--text); margin-bottom: 6px;
+  }
+  .modal-box .modal-date {
+    font-size: .78rem; color: var(--text-light);
+    letter-spacing: .1em; margin-bottom: 28px;
+    display: block;
+  }
+  .modal-box h3 {
+    font-size: .85rem; font-weight: 600;
+    letter-spacing: .1em; text-transform: uppercase;
+    color: var(--accent); margin: 24px 0 8px;
+  }
+  .modal-box p {
+    font-size: .9rem; line-height: 1.75;
+    color: var(--text-light); margin-bottom: 10px;
+  }
+  .modal-link {
+    color: rgba(255,255,255,0.5);
+    font-size: .78rem;
+    letter-spacing: .1em;
+    cursor: pointer;
+  }
+  .modal-link:hover { color: var(--rose); }
   /* ─── NAV ─────────────────────────────── */
   nav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
@@ -47,6 +145,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     transition: padding .3s;
     min-height: 64px;
     width: 100%;
+    will-change: padding;
   }
   .nav-logo {
     display: flex; align-items: center;
@@ -59,29 +158,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     width: auto;
     display: block;
   }
-  .nav-links {
-    display: flex; gap: 28px; list-style: none;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
-  .nav-links a {
-    text-decoration: none;
-    font-size: .73rem;
-    letter-spacing: .15em;
-    text-transform: uppercase;
-    color: var(--text-light);
-    transition: color .3s;
-    white-space: nowrap;
-  }
-  .nav-links a:hover { color: var(--accent); }
-  .nav-cta {
-    background: var(--accent);
-    color: #fff !important;
-    padding: 9px 22px;
-    border-radius: 40px;
-    transition: background .3s !important;
-  }
-  .nav-cta:hover { background: #b86868 !important; color: #fff !important; }
+  /* nav-links removido — menu não utilizado */
 
   /* ─── HERO ─────────────────────────────── */
   .hero {
@@ -124,7 +201,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     line-height: 1.08;
     color: var(--text);
     margin-bottom: 28px;
-    animation: fadeUp .8s .s ease both;
+    animation: fadeUp .8s .15s ease both;
   }
   .hero h1 em { font-style: italic; color: var(--accent); }
   .hero-sub {
@@ -753,7 +830,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="info-card-body">
           <span class="info-tag">Protocolo</span>
           <h3>Imunidade Blindada</h3>
-          <p<strong>>Informações para cuidar da sua imunidade e da sua família. Como garantir boa imunidade ao bebê desde a gestação, sugestões de fórmulas manipuladas, fitoterápicos e receitas.</strong></p>
+          <p><strong>Informações para cuidar da sua imunidade e da sua família. Como garantir boa imunidade ao bebê desde a gestação, sugestões de fórmulas manipuladas, fitoterápicos e receitas.</strong></p>
           <a href="https://carlatrevisan.com.br/infoprodutos" class="info-card-link">Adquirir agora</a>
         </div>
       </div>
@@ -853,12 +930,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </nav>
   <p>© 2026 Carla Trevisan Nutricionista · CRN-31863</p>
   <p>Copyright 2026 - Desenvolvido por <a href="https://wa.me/5519999363069" style="color: white; text-decoration: none;"> Murilo Trevisan</a>
-Todos os direitos reservados.
+Todos os direitos reservados.<br> <span class="modal-link" onclick="document.getElementById('modalPrivacidade').classList.add('active')">Política de Privacidade</span></p>
 </p>
     
 
 </footer>
+<!-- MODAL POLÍTICA DE PRIVACIDADE -->
+<div class="modal-overlay" id="modalPrivacidade">
+  <div class="modal-box">
+    <button class="modal-close" onclick="document.getElementById('modalPrivacidade').classList.remove('active')">✕</button>
+    <h2>Política de Privacidade</h2>
+    <span class="modal-date">Última atualização: maio de 2026</span>
 
+    <h3>1. Quem somos</h3>
+    <p>Este site é de propriedade de Carla Trevisan, nutricionista funcional (CRN-31863), com sede em Araras-SP. Para dúvidas, entre em contato pelo WhatsApp (19) 98990-0330 ou pelo Instagram @nutricarla.trevisan.</p>
+
+    <h3>2. Quais dados coletamos</h3>
+    <p>Coletamos dados apenas quando você nos contata voluntariamente, como nome e número de telefone ao clicar no botão de WhatsApp. Também utilizamos ferramentas de análise (Google Tag Manager e Google Analytics) que coletam dados de navegação de forma anônima.</p>
+
+    <h3>3. Como usamos seus dados</h3>
+    <p>Os dados coletados são utilizados exclusivamente para responder suas dúvidas e realizar agendamentos. Não vendemos, alugamos ou compartilhamos seus dados com terceiros para fins comerciais.</p>
+
+    <h3>4. Cookies</h3>
+    <p>Este site utiliza cookies de análise do Google Analytics. Você pode desativar cookies nas configurações do seu navegador a qualquer momento.</p>
+
+    <h3>5. Seus direitos (LGPD)</h3>
+    <p>De acordo com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), você tem direito a acessar, corrigir ou solicitar a exclusão dos seus dados pessoais. Entre em contato pelo WhatsApp (19) 98990-0330.</p>
+
+    <h3>6. Links externos</h3>
+    <p>Este site contém links para WhatsApp, Instagram e plataformas de pagamento. Não nos responsabilizamos pelas políticas de privacidade dessas plataformas.</p>
+
+    <h3>7. Alterações</h3>
+    <p>Esta política pode ser atualizada periodicamente. A data da última atualização está indicada no topo deste documento.</p>
+  </div>
+</div>
 <script>
   const reveals = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
@@ -873,6 +978,13 @@ Todos os direitos reservados.
   window.addEventListener('scroll', () => {
     document.querySelector('nav').style.padding =
       window.scrollY > 60 ? '10px 40px' : '16px 40px';
+  });
+
+  document.getElementById('modalPrivacidade').addEventListener('click', function(e) {
+    if (e.target === this) this.classList.remove('active');
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') document.getElementById('modalPrivacidade').classList.remove('active');
   });
 </script>
 </body>
