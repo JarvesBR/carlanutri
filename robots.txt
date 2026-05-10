@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Allow: /infoprodutos
+
+Sitemap: https://carlatrevisan.com.br/sitemap.xml
